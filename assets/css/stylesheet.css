@@ -1,0 +1,78 @@
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/playfair/PlayfairDisplay-ExtraBold.ttf);
+}
+
+:root {
+    --bs-navy: #1A2A36;
+    --bs-whit: #ffffff;
+    --bs-grey: #9B9B9B;
+    --bs-blu: #3853d8;
+    --bs-gre: #18b356;
+}
+
+img {
+    width: 100%;
+}
+
+.blu {
+    background: var(--bs-blu) !important;
+}
+
+.gre {
+    color: var(--bs-gre) !important;
+}
+
+.grey {
+    color: var(--bs-grey);
+}
+
+.bg-grey {
+    background: var(--bs-grey) !important;
+}
+
+.bg-gre {
+    background: var(--bs-gre) !important;
+}
+
+.wht {
+    color: var(--bs-whit) !important;
+}
+
+.bg-navy {
+    background: var(--bs-navy) !important;
+}
+
+.gry {
+    color: var(--bs-grey) !important;
+}   
+
+p {
+    margin: 0 !important;
+}
+
+.display-1 {
+    font-size: 4.5rem;
+}
+
+.display-3 {
+    font-size: 3rem;
+}
+
+.cust {
+    padding: 10px 14px;
+}
+
+.hvr:hover {
+    box-shadow: inset-10.5em 0 0 0 #ff96ad, inset10.5em 0 0 0 #ff96ad;
+}
+
+.active {
+    color: #18b356 !important;
+}
+
+.ban {
+    background: url(../images/carousel1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
